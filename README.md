@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script>
 # <center>**基于Dijkstra的广州地铁查询程序**</center>
 &emsp;&emsp;**摘要：本实验主要基于Dijkstra算法实现了广州地铁线路查询以及提供线路优化。根据广州地铁线路图建立双向有权图，然后根据Dijkstra算法提供最短路径为其最基本功能。除此之外，我们还在如何提供最少换乘方案上进行了一些探讨，并提供了两种可行方案。**
 
@@ -56,7 +51,6 @@ class SUBWAY
 
 <center><img src="pic\map.png" width="700" hegiht="560" align=center /></center>
 <center>图2.3</center>
-
 ### **2.4实验结果与测试**
 
 &emsp;&emsp;根据百度地图输出结果与测试结果进行比较以验证程序的正确性；方案一测试如图2.4.1与图2.4.2
@@ -65,7 +59,6 @@ class SUBWAY
 <center>图2.4.1</center>
 <center><img src="pic\testg1.png" width="440" hegiht="220" align=center /></center>
 <center>图2.4.2</center>
-
 &emsp;&emsp;方案二测试如图2.4.3与图2.4.4，**由于考虑不周，我们最终没有返回所需要的预计时间，但路线结果是没有问题的。**
 
 
@@ -74,12 +67,10 @@ class SUBWAY
 <center>图2.4.3</center>
 <center><img src="pic\testg2.png" width="440" hegiht="500" align=center /></center>
 <center>图2.4.4</center>
-
 &emsp;&emsp;方案三测试，由于网上没有找到途经最少站点的的方案，于是只能通过人工测试进行，如图2.4.5：
 
 <center><img src="pic\test3.png" width="800" hegiht="380" align=center /></center>
 <center>图2.4.5</center>
-
 &emsp;&emsp;通过与图2.3的线路进行比较，可以看到该结果确实是途经站点最少的方案，所以该功能没有问题。
 
 &emsp;&emsp;经过以上测试可以看到程序的正确性得到了说明，但没有经过严谨的数学证明，所以这是一大不足。
@@ -124,6 +115,3 @@ $ make
 [3] [广州地铁](http://ydyc.gzmtr.cn:19090/pcindex.html#/) http://ydyc.gzmtr.cn:19090/pcindex.html#/
 
 [4] [百度地图](https://map.baidu.com/@12626516,2626080,13z) https://map.baidu.com/@12626516,2626080,13z
-=======
-# Dijkstra
->>>>>>> 4faa0071abc0f005335c44c69e1750b51d9718fb
